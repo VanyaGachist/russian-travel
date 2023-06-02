@@ -1,0 +1,4 @@
+.place__main-text {
+  display: block;
+  grid-area: main-text;
+}

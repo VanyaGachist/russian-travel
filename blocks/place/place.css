@@ -1,0 +1,9 @@
+.place {
+  color: white;
+  display: grid;
+  width: 100%;
+  grid-template-areas:
+    "title website"
+    "image main-text"
+    "image main-text";
+}

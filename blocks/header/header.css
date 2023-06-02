@@ -1,0 +1,9 @@
+.header {
+  min-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 48px 0 48px;
+  box-sizing: border-box;
+  align-items: center;
+  color: white;
+}
