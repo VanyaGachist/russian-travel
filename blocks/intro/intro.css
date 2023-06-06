@@ -1,7 +1,21 @@
 .intro {
-  margin: 0 0 0 148px;
+  max-width: 690px;
+  margin: 0 148px 0 148px;
   display: flex;
   flex-direction: column;
   color: white;
   align-items: flex-start;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin: 0 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin: 0 24px 0 24px;
+  }
 }

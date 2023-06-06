@@ -3,9 +3,20 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  margin: 0 0 26px;
+  margin: 0 0 26px 0;
+  padding: 0;
 }
 
-.place__paragraph:nth-last-of-type() {
-  margin: 0;
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    max-width: 352px;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }

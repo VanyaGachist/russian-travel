@@ -1,9 +1,27 @@
 .header {
-  min-width: 1184px;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
-  margin: 28px 48px 0 48px;
+  margin: 28px auto 0 auto;
   box-sizing: border-box;
   align-items: center;
   color: white;
+}
+
+@media screen and (max-width: 1024px){
+  .header {
+    max-width: 980px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 288px;
+  }
 }

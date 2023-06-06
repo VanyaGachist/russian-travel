@@ -5,8 +5,22 @@
   line-height: 28px;
   font-weight: 400;
   color: white;
+  transition: opacity .3s linear;
+  text-decoration: none;
 }
 
-.header__lang-link:nth-of-type(2) {
-  text-decoration: none;
+.header__lang-link:first-of-type {
+  text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  opacity: 80%;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    max-width: 22px;
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

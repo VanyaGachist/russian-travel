@@ -1,4 +1,18 @@
 .place__main-text {
   display: block;
   grid-area: main-text;
+  margin: 0 0 0 40px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .place__main-text {
+    margin: 0 0 0 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__main-text {
+    margin: 0 0 0 28px;
+  }
 }
