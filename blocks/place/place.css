@@ -15,10 +15,22 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    margin: 73px 0 0 0;
+    margin: 73px 24px 0 24px;
   }
 
   .place:nth-of-type(1) {
-    margin: 88px 0 0 0;
+    margin: 88px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 50px 0 0 0;
+  }
+  .place:nth-of-type(1) {
+    margin: 64px 0 0 0;
   }
 }

@@ -16,3 +16,10 @@
     margin: 0 0 0 28px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__main-text {
+    margin: 32px 16px 0 16px;
+    order: 4;
+  }
+}

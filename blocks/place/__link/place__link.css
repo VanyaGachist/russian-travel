@@ -7,6 +7,7 @@
   transition: opacity .3s linear;
   cursor: pointer;
   text-decoration: underline;
+  color: white;
 }
 
 .place__link:hover {

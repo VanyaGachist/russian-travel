@@ -7,3 +7,9 @@
   color: #AAAAAA;
   letter-spacing: 2px;
 }
+
+@media screen and (max-width: 768px) {
+  .place__url-heading {
+    max-width: 352px;
+  }
+}

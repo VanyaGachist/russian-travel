@@ -12,3 +12,12 @@
     padding: 0 0 48px 32px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin: 32px 16px;
+    align-self: flex-start;
+    padding: 0;
+    order: 2;
+  }
+}
