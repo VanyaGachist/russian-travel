@@ -8,6 +8,7 @@
 **О чем проект?**
 Это web-сайт, про путешествие по России, сделанный благодаря макету из [фигмы](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?type=design&node-id=62863-634&t=EuI1V1pjFPEGhSCJ-0), с помощью *HTML* и *CSS*.
 
+-----
 **Какие технологии использовались?**
 здесь я использовал такие технологии как:
 1. *flex*
