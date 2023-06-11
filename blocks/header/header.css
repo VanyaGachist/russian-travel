@@ -3,26 +3,24 @@
   display: flex;
   justify-content: space-between;
   margin: 28px auto 0 auto;
-  box-sizing: border-box;
   align-items: center;
-  color: white;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1279px){
   .header {
     max-width: 980px;
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1023px) {
   .header {
-    max-width: 720px;
+    margin: 28px 24px 0 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .header {
-    margin: 16px auto 0 auto;
-    max-width: 288px;
+    margin: 16px 16px 0 16px;
   }
 }

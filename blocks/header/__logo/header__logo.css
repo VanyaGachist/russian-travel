@@ -5,11 +5,9 @@
   margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .header__logo {
     width: 144px;
     height: 42px;
-    object-fit: cover;
-    margin: 0;
   }
 }

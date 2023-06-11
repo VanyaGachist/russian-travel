@@ -7,13 +7,13 @@
   align-self: end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .place__website {
     padding: 0 0 48px 32px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .place__website {
     margin: 32px 16px;
     align-self: flex-start;
