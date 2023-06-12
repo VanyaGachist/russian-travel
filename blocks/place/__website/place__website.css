@@ -15,9 +15,15 @@
 
 @media screen and (max-width: 640px) {
   .place__website {
-    margin: 32px 16px;
+    margin: 32px auto;
     align-self: flex-start;
     padding: 0;
     order: 2;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .place__website {
+    margin: 32px 16px;
   }
 }

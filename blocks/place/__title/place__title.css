@@ -30,3 +30,9 @@
     order: 1;
   }
 }
+
+@media screen and (max-width: 385px) {
+  .place__title {
+    align-self: flex-start;
+  }
+}
