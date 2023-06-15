@@ -14,3 +14,15 @@
     max-width: 352px;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .place__url-heading {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .place__url-heading {
+    margin: 0 0 12px 0;
+  }
+}
