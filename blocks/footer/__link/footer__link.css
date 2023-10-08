@@ -6,7 +6,7 @@
   line-height: 18px;
   margin: 0 18px 0 0;
   transition: opacity .3s linear;
-  color: white;
+  color: var(--main-color-text);
   text-decoration: none;
 }
 

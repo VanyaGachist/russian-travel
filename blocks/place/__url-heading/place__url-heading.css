@@ -4,7 +4,7 @@
   font-size: 12px;
   line-height: 12px;
   margin: 0 0 12px 0;
-  color: #AAAAAA;
+  color: var(--url-text-color);
   letter-spacing: 2px;
   text-transform: uppercase;
 }

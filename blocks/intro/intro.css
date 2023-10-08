@@ -3,7 +3,6 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  color: white;
 }
 
 @media screen and (max-width: 1279px) {

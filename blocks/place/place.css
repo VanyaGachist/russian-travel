@@ -1,5 +1,4 @@
 .place {
-  color: white;
   display: grid;
   max-width: 100%;
   grid-template-areas:
