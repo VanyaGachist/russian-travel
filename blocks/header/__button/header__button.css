@@ -1,0 +1,10 @@
+.header__button {
+  margin-left: auto;
+  display: inline-block;
+	height: 28px;
+	line-height: 28px;
+  position: relative;
+	vertical-align: middle;
+	font-size: 14px;
+	user-select: none;
+}
