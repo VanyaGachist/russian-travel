@@ -6,6 +6,7 @@
   background-color: #ccc;
   border-radius: 10px;
   transition: background-color 0.2s ease;
+  cursor: pointer;
 }
 
 .header__switch_ios::before {
@@ -21,10 +22,14 @@
 }
 
 .header__switch + .header__switch_ios {
-  background-color: #007AFF;
+  background-color: #0c0d0e;
+}
+
+.header__switch:checked + .header__switch_ios {
+  background-color: #fff;
 }
 
 .header__switch:checked + .header__switch_ios:before {
   transform: translateX(20px);
-  background-color: azure;
+  background-color: rgb(161, 186, 186);
 }
